@@ -1,4 +1,7 @@
 const express = require("express");
+const dns=require("dns")
+dns.setServer(["8.8.8.8","8.8.4.4"])
+
 const cors = require("cors");
 
 const connectDB = require("./config/db");
