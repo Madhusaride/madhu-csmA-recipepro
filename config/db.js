@@ -4,7 +4,7 @@ const connectDB = async () => {
 
     try {
 
-        await mongoose.connect("mongodb://localhost:27017/RecipeBook");
+        await mongoose.connect("mongodb+srv://madhusri7225:madhusri@saride@cluster0.qh3vebu.mongodb.net/madhusri");
 
         console.log("Database Connected");
 
