@@ -15,7 +15,7 @@ app.use(cors());
 
 app.use(express.json());
 
-app.use(recipeRoutes);
+app.use("/rr",recipeRoutes);
 
 app.listen(4000, () => {
 
